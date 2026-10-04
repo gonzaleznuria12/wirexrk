@@ -18,42 +18,30 @@
             background: linear-gradient(135deg, #4facfe, #00f2fe);
             color: #ffffff;
             padding-top: 160px;
-
         }
 
         .banda-blanca {
             width: 100%;
-            height: 160;
-            /* Altura de la banda */
+            height: 160px;
             background-color: white;
-            /* Color blanco */
             position: fixed;
-            /* Para que se quede fija en la parte superior */
             top: 0;
             left: 0;
             display: flex;
-            /* Usamos flexbox para centrar el contenido */
             justify-content: center;
-            /* Centra horizontalmente */
             align-items: center;
-            /* Centra verticalmente */
             z-index: 10;
-            /* Asegura que la banda esté sobre otros elementos */
         }
 
         .banda-blanca img {
-            width: 160;
-            /* Ajusta el tamaño de la imagen */
+            width: 160px;
         }
 
-        /* Estilo del Ribbon */
         .ribbon {
             position: fixed;
             top: 35px;
-            /* Colocamos el ribbon debajo de la banda blanca */
             right: -60px;
             background-color: #f44336;
-            /* Color rojo */
             color: white;
             padding: 10px 20px;
             font-size: 16px;
@@ -65,7 +53,6 @@
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
         }
 
-        /* Estilo para el enlace */
         .ribbon a {
             color: white;
             text-decoration: none;
@@ -73,10 +60,8 @@
             padding: 5px 0;
         }
 
-        /* Estilo al pasar el mouse sobre el enlace */
         .ribbon a:hover {
             color: #ffeb3b;
-            /* Color amarillo al pasar el mouse */
         }
 
         h1 {
@@ -160,40 +145,23 @@
             color: rgba(255, 255, 255, 0.7);
         }
 
-        /* Media Query para adaptar el ribbon en pantallas pequeñas (p.ej. móvil en vertical) */
         @media (max-width: 600px) {
             .ribbon {
                 position: relative;
-                /* Cambia de 'fixed' para que fluya con el contenido */
                 top: auto;
-                /* Resetea la posición superior */
                 right: auto;
-                /* Resetea la posición derecha */
                 left: auto;
-                /* Resetea la posición izquierda */
                 transform: none;
-                /* Elimina la rotación */
                 width: 90%;
-                /* Ancho adaptable, ocupa casi todo el contenedor */
                 max-width: 350px;
-                /* Un ancho máximo para que no sea demasiado grande */
                 margin: 20px auto;
-                /* Margen superior/inferior y centrado horizontal */
                 padding: 12px;
-                /* Un padding interno adecuado */
                 font-size: 0.9em;
-                /* Ajusta el tamaño de la fuente si es necesario */
                 text-align: center;
-                /* Asegura que el texto dentro esté centrado */
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-                /* Sombra más sutil o quitarla */
                 border-radius: 5px;
-                /* Bordes redondeados para un look más moderno */
                 z-index: auto;
-                /* Para que al hacer scroll pase por detrás de banda-blanca */
             }
-
-            /* Opcional: Ajustes para la banda blanca y su contenido en móviles */
 
             .banda-blanca {
                 height: 120px;
@@ -202,9 +170,7 @@
             body {
                 padding-top: 120px;
                 padding-left: 15px;
-                /* Algo de espacio a la izda */
                 padding-right: 15px;
-                /* Algo de espacio a la derecha */
             }
 
             .banda-blanca img {
@@ -214,7 +180,6 @@
             .darkBlueText {
                 font-size: 3em;
             }
-
         }
     </style>
 
@@ -224,7 +189,7 @@
 
 <body>
     <div class="banda-blanca">
-        <h1 class=darkBlueText>WireXRk</h1> <img src=./assets/wirexrk-transp.png width=160>
+        <h1 class="darkBlueText">WireXRk</h1> <img src="./assets/wirexrk-transp.png" width="160">
     </div>
 
     <div class="ribbon">
@@ -262,29 +227,29 @@
     <p>You can view these WireXRk demos from a Firefox browser or from the
     browser of VR Oculus Quest Head Mounted Display:</p>
 
-    <!-- Primera lista transformada en grid -->
-<div class="grid-container">
-        <div class="grid-item"><a href="./demos/ping/">ping</a></div>
-        <div class="grid-item"><a href="./demos/ping2/">ping2</a></div>
-        <div class="grid-item"><a href="./demos/traceroute/">traceroute</a></div>
-        <div class="grid-item"><a href="./demos/traceroute2/">traceroute2</a></div>
-        <div class="grid-item"><a href="./demos/switches/">switches</a></div>
-        <div class="grid-item"><a href="./demos/tcp/">tcp</a></div>
-        <div class="grid-item"><a href="./demos/tcp-e2e/">tcp-e2e</a></div>
-        <div class="grid-item"><a href="./demos/dns/">dns</a></div>
-        <div class="grid-item"><a href="./demos/dns-e2e/">dns-e2e</a></div>
-        <div class="grid-item"><a href="./demos/http/">http</a></div>
-        <div class="grid-item"><a href="./demos/vlan/">vlan</a></div>
-        <div class="grid-item"><a href="./demos/vxlan/">vxlan</a></div>
-        <div class="grid-item"><a href="./demos/vxlan2/">vxlan2</a></div>
+    <!-- Enlaces actualizados con ruta absoluta para GitHub Pages -->
+    <div class="grid-container">
+        <div class="grid-item"><a href="/wirexrk/demos/ping/">ping</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/ping2/">ping2</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/traceroute/">traceroute</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/traceroute2/">traceroute2</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/switches/">switches</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/tcp/">tcp</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/tcp-e2e/">tcp-e2e</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/dns/">dns</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/dns-e2e/">dns-e2e</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/http/">http</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/vlan/">vlan</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/vxlan/">vxlan</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos/vxlan2/">vxlan2</a></div>
     </div>
 
     <h3>Experimental demos with 2 networks on the same scene:</h3>
 
     <div class="grid-container">
-        <div class="grid-item"><a href="./demos-with-2-networks/dns-2networks/">dns-2networks</a></div>
-        <div class="grid-item"><a href="./demos-with-2-networks/tcp-2networks/">tcp-2networks</a></div>
-        <div class="grid-item"><a href="./demos-with-2-networks/vxlan-2networks/">vxlan-2networks</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos-with-2-networks/dns-2networks/">dns-2networks</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos-with-2-networks/tcp-2networks/">tcp-2networks</a></div>
+        <div class="grid-item"><a href="/wirexrk/demos-with-2-networks/vxlan-2networks/">vxlan-2networks</a></div>
     </div>
 
     <footer>
