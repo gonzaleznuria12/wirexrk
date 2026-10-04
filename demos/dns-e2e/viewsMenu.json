@@ -1,0 +1,10 @@
+[
+    {
+        "nodeFilter": "type == 'host' || type == 'server'",
+        "packetFilter": "! arp",
+        "e2ePacketFilter": "dns",
+        "view": "APPLICATION+TRANSPORT",
+        "text": "End-to-End",
+        "color": "blue"
+    }
+]

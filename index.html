@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WireXRk Demos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: #ffffff;
+            padding-top: 160px;
+
+        }
+
+        .banda-blanca {
+            width: 100%;
+            height: 160;
+            /* Altura de la banda */
+            background-color: white;
+            /* Color blanco */
+            position: fixed;
+            /* Para que se quede fija en la parte superior */
+            top: 0;
+            left: 0;
+            display: flex;
+            /* Usamos flexbox para centrar el contenido */
+            justify-content: center;
+            /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+            z-index: 10;
+            /* Asegura que la banda esté sobre otros elementos */
+        }
+
+        .banda-blanca img {
+            width: 160;
+            /* Ajusta el tamaño de la imagen */
+        }
+
+        /* Estilo del Ribbon */
+        .ribbon {
+            position: fixed;
+            top: 35px;
+            /* Colocamos el ribbon debajo de la banda blanca */
+            right: -60px;
+            background-color: #f44336;
+            /* Color rojo */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            transform: rotate(45deg);
+            z-index: 1000;
+            text-align: center;
+            width: 200px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilo para el enlace */
+        .ribbon a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+
+        /* Estilo al pasar el mouse sobre el enlace */
+        .ribbon a:hover {
+            color: #ffeb3b;
+            /* Color amarillo al pasar el mouse */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .darkBlueText {
+            color: #003048;
+            font-size: 4em;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 0.5em 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffe600;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            width: 80%;
+            max-width: 800px;
+            margin: 1rem 0;
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .grid-item a {
+            display: block;
+            padding: 10px;
+            color: #ffe600;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        .grid-item a:hover {
+            color: #ffffff;
+        }
+
+        footer {
+            margin-top: 2em;
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Media Query para adaptar el ribbon en pantallas pequeñas (p.ej. móvil en vertical) */
+        @media (max-width: 600px) {
+            .ribbon {
+                position: relative;
+                /* Cambia de 'fixed' para que fluya con el contenido */
+                top: auto;
+                /* Resetea la posición superior */
+                right: auto;
+                /* Resetea la posición derecha */
+                left: auto;
+                /* Resetea la posición izquierda */
+                transform: none;
+                /* Elimina la rotación */
+                width: 90%;
+                /* Ancho adaptable, ocupa casi todo el contenedor */
+                max-width: 350px;
+                /* Un ancho máximo para que no sea demasiado grande */
+                margin: 20px auto;
+                /* Margen superior/inferior y centrado horizontal */
+                padding: 12px;
+                /* Un padding interno adecuado */
+                font-size: 0.9em;
+                /* Ajusta el tamaño de la fuente si es necesario */
+                text-align: center;
+                /* Asegura que el texto dentro esté centrado */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+                /* Sombra más sutil o quitarla */
+                border-radius: 5px;
+                /* Bordes redondeados para un look más moderno */
+                z-index: auto;
+                /* Para que al hacer scroll pase por detrás de banda-blanca */
+            }
+
+            /* Opcional: Ajustes para la banda blanca y su contenido en móviles */
+
+            .banda-blanca {
+                height: 120px;
+            }
+
+            body {
+                padding-top: 120px;
+                padding-left: 15px;
+                /* Algo de espacio a la izda */
+                padding-right: 15px;
+                /* Algo de espacio a la derecha */
+            }
+
+            .banda-blanca img {
+                width: 120px;
+            }
+
+            .darkBlueText {
+                font-size: 3em;
+            }
+
+        }
+    </style>
+
+    <link rel="icon" href="data:,">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="banda-blanca">
+        <h1 class=darkBlueText>WireXRk</h1> <img src=./assets/wirexrk-transp.png width=160>
+    </div>
+
+    <div class="ribbon">
+        <a href="https://gitlab.com/pheras/wirexrk" target="_blank">Visit my GitLab</a>
+    </div>
+
+    <h1>What is WireXRk</h1>
+    <p>WireXRk is an Extended Reality (XR) visualization toolkit designed for
+    aiding researchers in the development of new protocols and for enhancing the
+    educational experience of telecommunications undergraduates. WireXRk enables
+    network analysis and visualization providing a complement of traditional
+    tools such as Wireshark.
+    </p>
+
+    <p>WireXRk delivers an immersive experience with interactive 3D animated
+    scenes, accessible via XR head mounted displays or desktop web browsers.
+    These dynamic scenes vividly portray the movement of network packets as they
+    traverse visual representations of network links, hosts and switches. The
+    scenes are automatically generated from the network traffic previously
+    captured in TCP/IP Network Experimentation Environments.
+    </p>
+    
+    <p>The <a href="https://gitlab.com/eva.castro/netgui-kathara">NetGUI-Kathará
+    Network Experimentation Environment</a> provides support to generate the
+    files required by WireXRk. It automatically captures traffic on all
+    collision domains, merges the captures, and generates the topology
+    information required by WireXRk animations.
+    </p>
+
+    <p>WireXRk is Free (Libre) Software distributed with the GPL license.
+    </p>
+
+
+    <h1>WireXRk Demos</h1>
+    <p>You can view these WireXRk demos from a Firefox browser or from the
+    browser of VR Oculus Quest Head Mounted Display:</p>
+
+    <!-- Primera lista transformada en grid -->
+    <div class="grid-container">
+        <div class="grid-item"><a href="demos/ping">ping</a></div>
+        <div class="grid-item"><a href="demos/ping2">ping2</a></div>
+        <div class="grid-item"><a href="demos/traceroute">traceroute</a></div>
+        <div class="grid-item"><a href="demos/traceroute2">traceroute2</a></div>
+        <div class="grid-item"><a href="demos/switches">switches</a></div>
+        <div class="grid-item"><a href="demos/tcp">tcp</a></div>
+        <div class="grid-item"><a href="demos/tcp-e2e">tcp-e2e</a></div>
+        <div class="grid-item"><a href="demos/dns">dns</a></div>
+        <div class="grid-item"><a href="demos/dns-e2e">dns-e2e</a></div>
+        <div class="grid-item"><a href="demos/http">http</a></div>
+        <div class="grid-item"><a href="demos/vlan">vlan</a></div>
+        <div class="grid-item"><a href="demos/vxlan">vxlan</a></div>
+        <div class="grid-item"><a href="demos/vxlan2">vxlan2</a></div>
+    </div>
+
+    <h3>Experimental demos with 2 networks on the same scene:</h3>
+
+    <!-- Segunda lista transformada en grid -->
+    <div class="grid-container">
+        <div class="grid-item"><a href="demos-with-2-networks/dns-2networks">dns-2networks</a></div>
+        <div class="grid-item"><a href="demos-with-2-networks/tcp-2networks">tcp-2networks</a></div>
+        <div class="grid-item"><a href="demos-with-2-networks/vxlan-2networks">vxlan-2networks</a></div>
+    </div>
+
+    <footer>
+        Contact: pedro.delasheras@urjc.es<br>
+        Escuela de Ingeniería de Fuenlabrada. Universidad Rey Juan Carlos.
+    </footer>
+</body>
+
+</html>

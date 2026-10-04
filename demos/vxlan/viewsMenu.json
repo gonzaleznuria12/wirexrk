@@ -1,0 +1,15 @@
+[
+    {
+        "nodeFilter": "!nodeName.startsWith('tof') && !nodeName.startsWith('spine')",
+        "e2ePacketFilter": "vxlan",
+        "view": "APPLICATION+TRANSPORT+NETWORK",
+        "text": "NO-VXLAN",
+        "color": "green"
+    },
+    {
+        "packetFilter": "!arp",
+        "view": "APPLICATION+TRANSPORT+NETWORK",
+        "text": "Todos",
+        "color": "red"
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "packetFilter": "!arp",
+        "view": "APPLICATION+TRANSPORT+NETWORK",
+        "text": "Sin ARP",
+        "color": "green"
+    },
+    {
+        "view": "ALL",
+        "text": "Todos",
+        "color": "green"
+    }
+]

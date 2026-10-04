@@ -1,0 +1,147 @@
+{
+    "pc1":
+    {"sending":
+     [
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "len", "value": "1000"},
+		 {"protocol": "tcp", "field": "seq", "value": "1"},
+		 {"protocol": "ip", "field": "id", "value": "0x758e"}		 
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nApplication writes new data: Seq no. 1, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer out:  | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |      |      |######| "}]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "len", "value": "1000"},
+		 {"protocol": "tcp", "field": "seq", "value": "1001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nApplication writes new data: Seq no. 1001, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer out:  | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |      |######|######| "}]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "len", "value": "1000"},
+		 {"protocol": "tcp", "field": "seq", "value": "2001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nApplication writes new data: Seq no. 2001, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer out:  | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |######|######|######| "}]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "len", "value": "1000"},
+		 {"protocol": "tcp", "field": "seq", "value": "1"},
+		 {"protocol": "ip", "field": "id", "value": "0x7591"}		 
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nTIMEOUT, Retransmit data: Seq no. 1, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer out:  | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |######|######|######| "}]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "len", "value": "1000"},
+		 {"protocol": "tcp", "field": "seq", "value": "3001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nApplication writes new data: Seq no. 3001, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer out:  | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |######|      |      |      | "}]
+	 }
+
+     ],
+     
+     "receiving":
+     [
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "ack", "value": "3001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nReceived ACK: ACK no. 3001"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer out:  | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |      |      |      | "}
+			]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "ack", "value": "4001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nReceived ACK: ACK no. 4001"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer out:  | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |      |      |      | "}
+			]
+	 }	 
+     ]     
+    },
+    "pc2":
+    {"sending":
+     [
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "len", "value": "1000"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value":"$ traceroute -q 1  16.0.0.10"},
+			 {"protocol": "null", "field": "null", "value":"traceroute to (16.0.0.10), 30 hops max, 60 byte packets"}]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "ack", "value": "3001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nApplication reads all received data"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer in:   | 6001 | 5001 | 4001 | 3001 | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |      |      |      | "}
+			]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "ack", "value": "4001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nApplication reads all received data"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer in:   | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |      |      |      | "}
+			]
+	 }	 	 
+     ],
+     "receiving":
+     [
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "seq", "value": "1001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nReceived new data: Seq no. 1001, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer in:   | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |      |######|      | "}
+			]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "seq", "value": "2001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nReceived new data: Seq no. 2001, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer in:   | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |######|######|      | "}
+			]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "seq", "value": "1"},
+		 {"protocol": "tcp", "field": "len", "value": "1000"}		
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nReceived new data: Seq no. 1, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer in:   | 3001 | 2001 | 1001 |   1  | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |######|######|######| "}
+			]
+	 },
+	 {
+	     "conditions": [
+		 {"protocol": "tcp", "field": "seq", "value": "3001"}
+	     ],
+	     "actions": [{"protocol": "null", "field": "null", "value": "\nReceived new data: Seq no. 3001, data len: 1000 bytes"},
+			 {"protocol": "null", "field": "null", "value": "|Buffer in:   | 6001 | 5001 | 4001 | 3001 | "},			 
+			 {"protocol": "null", "field": "null", "value": "|             |      |      |      |######| "}
+			]
+	 }	 
+     ]     
+    }    
+}

@@ -1,0 +1,4126 @@
+[
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:21.615553000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025001.615553000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "00:1c:42:00:00:10",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:10",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "1",
+          "arp.src.hw_mac": "00:1c:42:00:00:10",
+          "arp.src.proto_ipv4": "11.0.0.10",
+          "arp.dst.hw_mac": "00:00:00:00:00:00",
+          "arp.dst.proto_ipv4": "11.0.0.1"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:21.615715000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025001.615715000",
+          "frame.time_delta": "0.000162000",
+          "frame.time_delta_displayed": "0.000162000",
+          "frame.time_relative": "0.000162000",
+          "frame.number": "2",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:10",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:10",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806",
+          "eth.trailer": "31:2d:30:30:30:30:30:00:00:00:00:00:00:00:00:00:00:00",
+          "eth.trailer_tree": {
+            "_ws.expert": {
+              "eth.padding_bad": "",
+              "_ws.expert.message": "Didn't find padding of zeros, and an undecoded trailer exists. There may be padding of non-zeros.",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "150994944"
+            }
+          }
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "2",
+          "arp.src.hw_mac": "00:1c:42:00:00:01",
+          "arp.src.proto_ipv4": "11.0.0.1",
+          "arp.dst.hw_mac": "00:1c:42:00:00:10",
+          "arp.dst.proto_ipv4": "11.0.0.10"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:21.615718000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025001.615718000",
+          "frame.time_delta": "0.000003000",
+          "frame.time_delta_displayed": "0.000003000",
+          "frame.time_relative": "0.000165000",
+          "frame.number": "3",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:01",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:01",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:10",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:10",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x916f",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "1",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 1",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0x0d2f",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "57900",
+          "udp.dstport": "33434",
+          "udp.port": "57900",
+          "udp.port": "33434",
+          "udp.length": "40",
+          "udp.checksum": "0x8abe",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:21.615788000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025001.615788000",
+          "frame.time_delta": "0.000070000",
+          "frame.time_delta_displayed": "0.000070000",
+          "frame.time_relative": "0.000235000",
+          "frame.number": "4",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:10",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:10",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0x2dbe",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "1",
+          "ip.checksum": "0x361d",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.1",
+          "ip.addr": "11.0.0.1",
+          "ip.src_host": "11.0.0.1",
+          "ip.host": "11.0.0.1",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0x104d",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0x916f",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0x0d2f",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "57900",
+            "udp.dstport": "33434",
+            "udp.port": "57900",
+            "udp.port": "33434",
+            "udp.length": "40",
+            "udp.checksum": "0x8abe",
+            "udp.checksum.status": "2",
+            "udp.stream": "0",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.115714000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.115714000",
+          "frame.time_delta": "0.499926000",
+          "frame.time_delta_displayed": "0.499926000",
+          "frame.time_relative": "0.500161000",
+          "frame.number": "5",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:01",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:01",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:10",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:10",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0xc916",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "2",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 2",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0xd487",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "48666",
+          "udp.dstport": "33435",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #1",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "48666",
+          "udp.port": "33435",
+          "udp.length": "40",
+          "udp.checksum": "0xaecf",
+          "udp.checksum.status": "2",
+          "udp.stream": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth0\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth0\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.115782000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.115782000",
+          "frame.time_delta": "0.000068000",
+          "frame.time_delta_displayed": "0.000068000",
+          "frame.time_relative": "0.500229000",
+          "frame.number": "6",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "00:1c:42:00:01:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:01",
+            "eth.addr_resolved": "Parallel_00:01:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "1",
+          "arp.src.hw_mac": "00:1c:42:00:01:01",
+          "arp.src.proto_ipv4": "13.0.0.1",
+          "arp.dst.hw_mac": "00:00:00:00:00:00",
+          "arp.dst.proto_ipv4": "13.0.0.3"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.115928000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.115928000",
+          "frame.time_delta": "0.000146000",
+          "frame.time_delta_displayed": "0.000146000",
+          "frame.time_relative": "0.500375000",
+          "frame.number": "7",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:01:01",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:01:01",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:01",
+            "eth.addr_resolved": "Parallel_00:01:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:03",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:03",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:03",
+            "eth.addr_resolved": "Parallel_00:00:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806",
+          "eth.trailer": "31:2d:30:30:30:30:30:00:00:00:00:00:00:00:00:00:00:00",
+          "eth.trailer_tree": {
+            "_ws.expert": {
+              "eth.padding_bad": "",
+              "_ws.expert.message": "Didn't find padding of zeros, and an undecoded trailer exists. There may be padding of non-zeros.",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "150994944"
+            }
+          }
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "2",
+          "arp.src.hw_mac": "00:1c:42:00:00:03",
+          "arp.src.proto_ipv4": "13.0.0.3",
+          "arp.dst.hw_mac": "00:1c:42:00:01:01",
+          "arp.dst.proto_ipv4": "13.0.0.1"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth0\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth0\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.115932000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.115932000",
+          "frame.time_delta": "0.000004000",
+          "frame.time_delta_displayed": "0.000004000",
+          "frame.time_relative": "0.500379000",
+          "frame.number": "8",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:03",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:03",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:03",
+            "eth.addr_resolved": "Parallel_00:00:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:01:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:01",
+            "eth.addr_resolved": "Parallel_00:01:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0xc916",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "1",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 1",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0xd587",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "48666",
+          "udp.dstport": "33435",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #1",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "48666",
+          "udp.port": "33435",
+          "udp.length": "40",
+          "udp.checksum": "0xaecf",
+          "udp.checksum.status": "2",
+          "udp.stream": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000218000",
+            "udp.time_delta": "0.000218000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.116001000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.116001000",
+          "frame.time_delta": "0.000069000",
+          "frame.time_delta_displayed": "0.000069000",
+          "frame.time_relative": "0.500448000",
+          "frame.number": "9",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:01:01",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:01:01",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:01",
+            "eth.addr_resolved": "Parallel_00:01:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:03",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:03",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:03",
+            "eth.addr_resolved": "Parallel_00:00:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0xbad4",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "1",
+          "ip.checksum": "0xa704",
+          "ip.checksum.status": "2",
+          "ip.src": "13.0.0.3",
+          "ip.addr": "13.0.0.3",
+          "ip.src_host": "13.0.0.3",
+          "ip.host": "13.0.0.3",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0x104d",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0xc916",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0xd587",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "48666",
+            "udp.dstport": "33435",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #1",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "48666",
+            "udp.port": "33435",
+            "udp.length": "40",
+            "udp.checksum": "0xaecf",
+            "udp.checksum.status": "2",
+            "udp.stream": "1",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.116020000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.116020000",
+          "frame.time_delta": "0.000019000",
+          "frame.time_delta_displayed": "0.000019000",
+          "frame.time_relative": "0.500467000",
+          "frame.number": "10",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:10",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:10",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0xbad4",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "1",
+          "ip.checksum": "0xa804",
+          "ip.checksum.status": "2",
+          "ip.src": "13.0.0.3",
+          "ip.addr": "13.0.0.3",
+          "ip.src_host": "13.0.0.3",
+          "ip.host": "13.0.0.3",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0x104d",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0xc916",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0xd587",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "48666",
+            "udp.dstport": "33435",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #1",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "48666",
+            "udp.port": "33435",
+            "udp.length": "40",
+            "udp.checksum": "0xaecf",
+            "udp.checksum.status": "2",
+            "udp.stream": "1",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.615774000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.615774000",
+          "frame.time_delta": "0.499754000",
+          "frame.time_delta_displayed": "0.499754000",
+          "frame.time_relative": "1.000221000",
+          "frame.number": "11",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:01",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:01",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:10",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:10",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x110e",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "3",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 3",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0x8b90",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "35728",
+          "udp.dstport": "33436",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #2",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "35728",
+          "udp.port": "33436",
+          "udp.length": "40",
+          "udp.checksum": "0xe158",
+          "udp.checksum.status": "2",
+          "udp.stream": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth0\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth0\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.615858000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.615858000",
+          "frame.time_delta": "0.000084000",
+          "frame.time_delta_displayed": "0.000084000",
+          "frame.time_relative": "1.000305000",
+          "frame.number": "12",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:03",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:03",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:03",
+            "eth.addr_resolved": "Parallel_00:00:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:01:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:01",
+            "eth.addr_resolved": "Parallel_00:01:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x110e",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "2",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 2",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0x8c90",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "35728",
+          "udp.dstport": "33436",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #2",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "35728",
+          "udp.port": "33436",
+          "udp.length": "40",
+          "udp.checksum": "0xe158",
+          "udp.checksum.status": "2",
+          "udp.stream": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.000084000",
+            "udp.time_delta": "0.000084000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r4\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r4\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.615946000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.615946000",
+          "frame.time_delta": "0.000088000",
+          "frame.time_delta_displayed": "0.000088000",
+          "frame.time_relative": "1.000393000",
+          "frame.number": "13",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "00:1c:42:00:01:03",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:03",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:03",
+            "eth.addr_resolved": "Parallel_00:01:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806",
+          "eth.trailer": "31:2d:30:30:30:30:30:00:00:00:00:00:00:00:00:00:00:00",
+          "eth.trailer_tree": {
+            "_ws.expert": {
+              "eth.padding_bad": "",
+              "_ws.expert.message": "Didn't find padding of zeros, and an undecoded trailer exists. There may be padding of non-zeros.",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "150994944"
+            }
+          }
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "1",
+          "arp.src.hw_mac": "00:1c:42:00:01:03",
+          "arp.src.proto_ipv4": "15.0.0.3",
+          "arp.dst.hw_mac": "00:00:00:00:00:00",
+          "arp.dst.proto_ipv4": "15.0.0.4"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.615959000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.615959000",
+          "frame.time_delta": "0.000013000",
+          "frame.time_delta_displayed": "0.000013000",
+          "frame.time_relative": "1.000406000",
+          "frame.number": "14",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:01:03",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:01:03",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:03",
+            "eth.addr_resolved": "Parallel_00:01:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:01:04",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:04",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:04",
+            "eth.addr_resolved": "Parallel_00:01:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "2",
+          "arp.src.hw_mac": "00:1c:42:00:01:04",
+          "arp.src.proto_ipv4": "15.0.0.4",
+          "arp.dst.hw_mac": "00:1c:42:00:01:03",
+          "arp.dst.proto_ipv4": "15.0.0.3"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r4\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r4\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.616082000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.616082000",
+          "frame.time_delta": "0.000123000",
+          "frame.time_delta_displayed": "0.000123000",
+          "frame.time_relative": "1.000529000",
+          "frame.number": "15",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:01:04",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:01:04",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:04",
+            "eth.addr_resolved": "Parallel_00:01:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:01:03",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:03",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:03",
+            "eth.addr_resolved": "Parallel_00:01:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x110e",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "1",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 1",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0x8d90",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "35728",
+          "udp.dstport": "33436",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #2",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "35728",
+          "udp.port": "33436",
+          "udp.length": "40",
+          "udp.checksum": "0xe158",
+          "udp.checksum.status": "2",
+          "udp.stream": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.000308000",
+            "udp.time_delta": "0.000224000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth2\"},\"dst\":{\"node\":\"r2\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth2\"},\"dst\":{\"node\":\"r2\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.616124000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.616124000",
+          "frame.time_delta": "0.000042000",
+          "frame.time_delta_displayed": "0.000042000",
+          "frame.time_relative": "1.000571000",
+          "frame.number": "16",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "00:1c:42:00:02:04",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:02:04",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:02:04",
+            "eth.addr_resolved": "Parallel_00:02:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806",
+          "eth.trailer": "31:2d:30:30:30:30:30:00:00:00:00:00:00:00:00:00:00:00",
+          "eth.trailer_tree": {
+            "_ws.expert": {
+              "eth.padding_bad": "",
+              "_ws.expert.message": "Didn't find padding of zeros, and an undecoded trailer exists. There may be padding of non-zeros.",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "150994944"
+            }
+          }
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "1",
+          "arp.src.hw_mac": "00:1c:42:00:02:04",
+          "arp.src.proto_ipv4": "14.0.0.4",
+          "arp.dst.hw_mac": "00:00:00:00:00:00",
+          "arp.dst.proto_ipv4": "14.0.0.2"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r2\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r4\",\"iface\":\"eth2\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r2\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r4\",\"iface\":\"eth2\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.616131000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.616131000",
+          "frame.time_delta": "0.000007000",
+          "frame.time_delta_displayed": "0.000007000",
+          "frame.time_relative": "1.000578000",
+          "frame.number": "17",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:02:04",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:02:04",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:02:04",
+            "eth.addr_resolved": "Parallel_00:02:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:01:02",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:02",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:02",
+            "eth.addr_resolved": "Parallel_00:01:02",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "2",
+          "arp.src.hw_mac": "00:1c:42:00:01:02",
+          "arp.src.proto_ipv4": "14.0.0.2",
+          "arp.dst.hw_mac": "00:1c:42:00:02:04",
+          "arp.dst.proto_ipv4": "14.0.0.4"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth2\"},\"dst\":{\"node\":\"r2\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth2\"},\"dst\":{\"node\":\"r2\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.616268000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.616268000",
+          "frame.time_delta": "0.000137000",
+          "frame.time_delta_displayed": "0.000137000",
+          "frame.time_relative": "1.000715000",
+          "frame.number": "18",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:01:02",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:01:02",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:02",
+            "eth.addr_resolved": "Parallel_00:01:02",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:02:04",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:02:04",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:02:04",
+            "eth.addr_resolved": "Parallel_00:02:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0xecd0",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "1",
+          "ip.checksum": "0x7407",
+          "ip.checksum.status": "2",
+          "ip.src": "14.0.0.4",
+          "ip.addr": "14.0.0.4",
+          "ip.src_host": "14.0.0.4",
+          "ip.host": "14.0.0.4",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0x104d",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0x110e",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0x8d90",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "35728",
+            "udp.dstport": "33436",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #2",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "35728",
+            "udp.port": "33436",
+            "udp.length": "40",
+            "udp.checksum": "0xe158",
+            "udp.checksum.status": "2",
+            "udp.stream": "2",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth2\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth2\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.616273000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.616273000",
+          "frame.time_delta": "0.000005000",
+          "frame.time_delta_displayed": "0.000005000",
+          "frame.time_relative": "1.000720000",
+          "frame.number": "19",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "00:1c:42:00:00:02",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:02",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:02",
+            "eth.addr_resolved": "Parallel_00:00:02",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "1",
+          "arp.src.hw_mac": "00:1c:42:00:00:02",
+          "arp.src.proto_ipv4": "12.0.0.2",
+          "arp.dst.hw_mac": "00:00:00:00:00:00",
+          "arp.dst.proto_ipv4": "12.0.0.1"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth2\"},\"dst\":{\"node\":\"r2\",\"iface\":\"eth0\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth2\"},\"dst\":{\"node\":\"r2\",\"iface\":\"eth0\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.616456000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.616456000",
+          "frame.time_delta": "0.000183000",
+          "frame.time_delta_displayed": "0.000183000",
+          "frame.time_relative": "1.000903000",
+          "frame.number": "20",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:02",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:02",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:02",
+            "eth.addr_resolved": "Parallel_00:00:02",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:02:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:02:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:02:01",
+            "eth.addr_resolved": "Parallel_00:02:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806",
+          "eth.trailer": "31:2d:30:30:30:30:30:00:00:00:00:00:00:00:00:00:00:00",
+          "eth.trailer_tree": {
+            "_ws.expert": {
+              "eth.padding_bad": "",
+              "_ws.expert.message": "Didn't find padding of zeros, and an undecoded trailer exists. There may be padding of non-zeros.",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "150994944"
+            }
+          }
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "2",
+          "arp.src.hw_mac": "00:1c:42:00:02:01",
+          "arp.src.proto_ipv4": "12.0.0.1",
+          "arp.dst.hw_mac": "00:1c:42:00:00:02",
+          "arp.dst.proto_ipv4": "12.0.0.2"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth2\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth2\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.616460000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.616460000",
+          "frame.time_delta": "0.000004000",
+          "frame.time_delta_displayed": "0.000004000",
+          "frame.time_relative": "1.000907000",
+          "frame.number": "21",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:02:01",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:02:01",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:02:01",
+            "eth.addr_resolved": "Parallel_00:02:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:02",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:02",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:02",
+            "eth.addr_resolved": "Parallel_00:00:02",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0xecd0",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "1",
+          "ip.checksum": "0x7507",
+          "ip.checksum.status": "2",
+          "ip.src": "14.0.0.4",
+          "ip.addr": "14.0.0.4",
+          "ip.src_host": "14.0.0.4",
+          "ip.host": "14.0.0.4",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0x104d",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0x110e",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0x8d90",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "35728",
+            "udp.dstport": "33436",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #2",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "35728",
+            "udp.port": "33436",
+            "udp.length": "40",
+            "udp.checksum": "0xe158",
+            "udp.checksum.status": "2",
+            "udp.stream": "2",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:22.616530000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025002.616530000",
+          "frame.time_delta": "0.000070000",
+          "frame.time_delta_displayed": "0.000070000",
+          "frame.time_relative": "1.000977000",
+          "frame.number": "22",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:10",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:10",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0xecd0",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "62",
+          "ip.proto": "1",
+          "ip.checksum": "0x7607",
+          "ip.checksum.status": "2",
+          "ip.src": "14.0.0.4",
+          "ip.addr": "14.0.0.4",
+          "ip.src_host": "14.0.0.4",
+          "ip.host": "14.0.0.4",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "11",
+          "icmp.code": "0",
+          "icmp.checksum": "0x104d",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0x110e",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0x8d90",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "35728",
+            "udp.dstport": "33436",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #2",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "35728",
+            "udp.port": "33436",
+            "udp.length": "40",
+            "udp.checksum": "0xe158",
+            "udp.checksum.status": "2",
+            "udp.stream": "2",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"pc1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.116070000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.116070000",
+          "frame.time_delta": "0.499540000",
+          "frame.time_delta_displayed": "0.499540000",
+          "frame.time_relative": "1.500517000",
+          "frame.number": "23",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:01",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:01",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:10",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:10",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x570f",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "4",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 4",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0x448f",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "35056",
+          "udp.dstport": "33437",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #3",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "35056",
+          "udp.port": "33437",
+          "udp.length": "40",
+          "udp.checksum": "0xe3f7",
+          "udp.checksum.status": "2",
+          "udp.stream": "3",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth0\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r3\",\"iface\":\"eth0\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.116305000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.116305000",
+          "frame.time_delta": "0.000235000",
+          "frame.time_delta_displayed": "0.000235000",
+          "frame.time_relative": "1.500752000",
+          "frame.number": "24",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:03",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:03",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:03",
+            "eth.addr_resolved": "Parallel_00:00:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:01:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:01",
+            "eth.addr_resolved": "Parallel_00:01:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x570f",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "3",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 3",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0x458f",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "35056",
+          "udp.dstport": "33437",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #3",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "35056",
+          "udp.port": "33437",
+          "udp.length": "40",
+          "udp.checksum": "0xe3f7",
+          "udp.checksum.status": "2",
+          "udp.stream": "3",
+          "Timestamps": {
+            "udp.time_relative": "0.000235000",
+            "udp.time_delta": "0.000235000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r4\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r3\",\"iface\":\"eth1\"},\"dst\":{\"node\":\"r4\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.116565000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.116565000",
+          "frame.time_delta": "0.000260000",
+          "frame.time_delta_displayed": "0.000260000",
+          "frame.time_relative": "1.501012000",
+          "frame.number": "25",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:01:04",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:01:04",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:04",
+            "eth.addr_resolved": "Parallel_00:01:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:01:03",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:01:03",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:03",
+            "eth.addr_resolved": "Parallel_00:01:03",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x570f",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "2",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 2",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0x468f",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "35056",
+          "udp.dstport": "33437",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #3",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "35056",
+          "udp.port": "33437",
+          "udp.length": "40",
+          "udp.checksum": "0xe3f7",
+          "udp.checksum.status": "2",
+          "udp.stream": "3",
+          "Timestamps": {
+            "udp.time_relative": "0.000495000",
+            "udp.time_delta": "0.000260000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub2\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub2\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.116755000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.116755000",
+          "frame.time_delta": "0.000190000",
+          "frame.time_delta_displayed": "0.000190000",
+          "frame.time_relative": "1.501202000",
+          "frame.number": "26",
+          "frame.len": "60",
+          "frame.cap_len": "60",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "00:1c:42:00:00:04",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:04",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:04",
+            "eth.addr_resolved": "Parallel_00:00:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806",
+          "eth.trailer": "31:2d:30:30:30:30:30:00:00:00:00:00:00:00:00:00:00:00",
+          "eth.trailer_tree": {
+            "_ws.expert": {
+              "eth.padding_bad": "",
+              "_ws.expert.message": "Didn't find padding of zeros, and an undecoded trailer exists. There may be padding of non-zeros.",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "150994944"
+            }
+          }
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "1",
+          "arp.src.hw_mac": "00:1c:42:00:00:04",
+          "arp.src.proto_ipv4": "16.0.0.4",
+          "arp.dst.hw_mac": "00:00:00:00:00:00",
+          "arp.dst.proto_ipv4": "16.0.0.10"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"pc2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub2\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"pc2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub2\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.116804000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.116804000",
+          "frame.time_delta": "0.000049000",
+          "frame.time_delta_displayed": "0.000049000",
+          "frame.time_relative": "1.501251000",
+          "frame.number": "27",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:arp",
+          "frame.coloring_rule.name": "ARP",
+          "frame.coloring_rule.string": "arp"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:04",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:04",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:04",
+            "eth.addr_resolved": "Parallel_00:00:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:20",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:20",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:20",
+            "eth.addr_resolved": "Parallel_00:00:20",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0806"
+        },
+        "arp": {
+          "arp.hw.type": "1",
+          "arp.proto.type": "0x0800",
+          "arp.hw.size": "6",
+          "arp.proto.size": "4",
+          "arp.opcode": "2",
+          "arp.src.hw_mac": "00:1c:42:00:00:20",
+          "arp.src.proto_ipv4": "16.0.0.10",
+          "arp.dst.hw_mac": "00:1c:42:00:00:04",
+          "arp.dst.proto_ipv4": "16.0.0.4"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub2\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub2\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.116924000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.116924000",
+          "frame.time_delta": "0.000120000",
+          "frame.time_delta_displayed": "0.000120000",
+          "frame.time_relative": "1.501371000",
+          "frame.number": "28",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "TTL low or unexpected",
+          "frame.coloring_rule.string": "(ip.dst != 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:20",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:20",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:20",
+            "eth.addr_resolved": "Parallel_00:00:20",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:04",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:04",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:04",
+            "eth.addr_resolved": "Parallel_00:00:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x570f",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "1",
+          "ip.ttl_tree": {
+            "_ws.expert": {
+              "ip.ttl.too_small": "",
+              "_ws.expert.message": "\"Time To Live\" only 1",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "ip.proto": "17",
+          "ip.checksum": "0x478f",
+          "ip.checksum.status": "2",
+          "ip.src": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.src_host": "11.0.0.10",
+          "ip.host": "11.0.0.10",
+          "ip.dst": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.dst_host": "16.0.0.10",
+          "ip.host": "16.0.0.10"
+        },
+        "udp": {
+          "udp.srcport": "35056",
+          "udp.dstport": "33437",
+          "udp.dstport_tree": {
+            "_ws.expert": {
+              "udp.possible_traceroute": "",
+              "_ws.expert.message": "Possible traceroute: hop #1, attempt #3",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            }
+          },
+          "udp.port": "35056",
+          "udp.port": "33437",
+          "udp.length": "40",
+          "udp.checksum": "0xe3f7",
+          "udp.checksum.status": "2",
+          "udp.stream": "3",
+          "Timestamps": {
+            "udp.time_relative": "0.000854000",
+            "udp.time_delta": "0.000359000"
+          },
+          "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"pc2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub2\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"pc2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub2\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.116954000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.116954000",
+          "frame.time_delta": "0.000030000",
+          "frame.time_delta_displayed": "0.000030000",
+          "frame.time_relative": "1.501401000",
+          "frame.number": "29",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:04",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:04",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:04",
+            "eth.addr_resolved": "Parallel_00:00:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:20",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:20",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:20",
+            "eth.addr_resolved": "Parallel_00:00:20",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0x3e50",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "1",
+          "ip.checksum": "0x2082",
+          "ip.checksum.status": "2",
+          "ip.src": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.src_host": "16.0.0.10",
+          "ip.host": "16.0.0.10",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "3",
+          "icmp.code": "3",
+          "icmp.checksum": "0x184a",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0x570f",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0x478f",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "35056",
+            "udp.dstport": "33437",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #3",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "35056",
+            "udp.port": "33437",
+            "udp.length": "40",
+            "udp.checksum": "0xe3f7",
+            "udp.checksum.status": "2",
+            "udp.stream": "3",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth2\"},\"dst\":{\"node\":\"r2\",\"iface\":\"eth1\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r4\",\"iface\":\"eth2\"},\"dst\":{\"node\":\"r2\",\"iface\":\"eth1\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.117077000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.117077000",
+          "frame.time_delta": "0.000123000",
+          "frame.time_delta_displayed": "0.000123000",
+          "frame.time_relative": "1.501524000",
+          "frame.number": "30",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:01:02",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:01:02",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:01:02",
+            "eth.addr_resolved": "Parallel_00:01:02",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:02:04",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:02:04",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:02:04",
+            "eth.addr_resolved": "Parallel_00:02:04",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0x3e50",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "1",
+          "ip.checksum": "0x2182",
+          "ip.checksum.status": "2",
+          "ip.src": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.src_host": "16.0.0.10",
+          "ip.host": "16.0.0.10",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "3",
+          "icmp.code": "3",
+          "icmp.checksum": "0x184a",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0x570f",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0x478f",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "35056",
+            "udp.dstport": "33437",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #3",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "35056",
+            "udp.port": "33437",
+            "udp.length": "40",
+            "udp.checksum": "0xe3f7",
+            "udp.checksum.status": "2",
+            "udp.stream": "3",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth2\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r2\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"r1\",\"iface\":\"eth2\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.117084000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.117084000",
+          "frame.time_delta": "0.000007000",
+          "frame.time_delta_displayed": "0.000007000",
+          "frame.time_relative": "1.501531000",
+          "frame.number": "31",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:02:01",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:02:01",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:02:01",
+            "eth.addr_resolved": "Parallel_00:02:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:02",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:02",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:02",
+            "eth.addr_resolved": "Parallel_00:00:02",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0x3e50",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "62",
+          "ip.proto": "1",
+          "ip.checksum": "0x2282",
+          "ip.checksum.status": "2",
+          "ip.src": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.src_host": "16.0.0.10",
+          "ip.host": "16.0.0.10",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "3",
+          "icmp.code": "3",
+          "icmp.checksum": "0x184a",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0x570f",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0x478f",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "35056",
+            "udp.dstport": "33437",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #3",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "35056",
+            "udp.port": "33437",
+            "udp.length": "40",
+            "udp.checksum": "0xe3f7",
+            "udp.checksum.status": "2",
+            "udp.stream": "3",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2024-03-21",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "{\"link\":{\"src\":{\"node\":\"r1\",\"iface\":\"eth0\"},\"dst\":{\"node\":\"hub1\",\"iface\":\"\"}}}",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Mar 21, 2024 13:43:23.117200000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1711025003.117200000",
+          "frame.time_delta": "0.000116000",
+          "frame.time_delta_displayed": "0.000116000",
+          "frame.time_relative": "1.501647000",
+          "frame.number": "32",
+          "frame.len": "102",
+          "frame.cap_len": "102",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:icmp:ip:udp:data",
+          "frame.coloring_rule.name": "ICMP errors",
+          "frame.coloring_rule.string": "icmp.type in { 3..5, 11 } || icmpv6.type in { 1..4 }"
+        },
+        "eth": {
+          "eth.dst": "00:1c:42:00:00:10",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Parallel_00:00:10",
+            "eth.dst.oui": "7234",
+            "eth.dst.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:10",
+            "eth.addr_resolved": "Parallel_00:00:10",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:1c:42:00:00:01",
+          "eth.src_tree": {
+            "eth.src_resolved": "Parallel_00:00:01",
+            "eth.src.oui": "7234",
+            "eth.src.oui_resolved": "Parallels, Inc.",
+            "eth.addr": "00:1c:42:00:00:01",
+            "eth.addr_resolved": "Parallel_00:00:01",
+            "eth.addr.oui": "7234",
+            "eth.addr.oui_resolved": "Parallels, Inc.",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0xc0",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "48",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "88",
+          "ip.id": "0x3e50",
+          "ip.flags": "0x00",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "61",
+          "ip.proto": "1",
+          "ip.checksum": "0x2382",
+          "ip.checksum.status": "2",
+          "ip.src": "16.0.0.10",
+          "ip.addr": "16.0.0.10",
+          "ip.src_host": "16.0.0.10",
+          "ip.host": "16.0.0.10",
+          "ip.dst": "11.0.0.10",
+          "ip.addr": "11.0.0.10",
+          "ip.dst_host": "11.0.0.10",
+          "ip.host": "11.0.0.10"
+        },
+        "icmp": {
+          "icmp.type": "3",
+          "icmp.code": "3",
+          "icmp.checksum": "0x184a",
+          "icmp.checksum.status": "1",
+          "icmp.unused": "00:00:00:00",
+          "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x00",
+            "ip.dsfield_tree": {
+              "ip.dsfield.dscp": "0",
+              "ip.dsfield.ecn": "0"
+            },
+            "ip.len": "60",
+            "ip.id": "0x570f",
+            "ip.flags": "0x00",
+            "ip.flags_tree": {
+              "ip.flags.rb": "0",
+              "ip.flags.df": "0",
+              "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "1",
+            "ip.ttl_tree": {
+              "_ws.expert": {
+                "ip.ttl.too_small": "",
+                "_ws.expert.message": "\"Time To Live\" only 1",
+                "_ws.expert.severity": "4194304",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "ip.proto": "17",
+            "ip.checksum": "0x478f",
+            "ip.checksum.status": "2",
+            "ip.src": "11.0.0.10",
+            "ip.addr": "11.0.0.10",
+            "ip.src_host": "11.0.0.10",
+            "ip.host": "11.0.0.10",
+            "ip.dst": "16.0.0.10",
+            "ip.addr": "16.0.0.10",
+            "ip.dst_host": "16.0.0.10",
+            "ip.host": "16.0.0.10"
+          },
+          "udp": {
+            "udp.srcport": "35056",
+            "udp.dstport": "33437",
+            "udp.dstport_tree": {
+              "_ws.expert": {
+                "udp.possible_traceroute": "",
+                "_ws.expert.message": "Possible traceroute: hop #1, attempt #3",
+                "_ws.expert.severity": "2097152",
+                "_ws.expert.group": "33554432"
+              }
+            },
+            "udp.port": "35056",
+            "udp.port": "33437",
+            "udp.length": "40",
+            "udp.checksum": "0xe3f7",
+            "udp.checksum.status": "2",
+            "udp.stream": "3",
+            "udp.payload": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f"
+          }
+        },
+        "data": {
+          "data.data": "40:41:42:43:44:45:46:47:48:49:4a:4b:4c:4d:4e:4f:50:51:52:53:54:55:56:57:58:59:5a:5b:5c:5d:5e:5f",
+          "data.len": "32"
+        }
+      }
+    }
+  }
+]

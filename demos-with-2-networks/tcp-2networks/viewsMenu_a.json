@@ -1,0 +1,9 @@
+[
+    {
+        "nodeFilter": "type == 'host'",
+        "e2ePacketFilter": "tcp",
+        "view": "APPLICATION+TRANSPORT",
+        "text": "End-to-End",
+        "color": "blue"
+    }
+]

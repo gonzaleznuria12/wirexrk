@@ -1,0 +1,344 @@
+{
+    "nodes": [
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "00:1c:42:00:00:10",
+                "ipaddr": "100.0.0.10",
+                "mask": "24"
+            }},
+            "routing_table": [
+                [
+                    "100.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth0"
+                ],
+                [
+                    "0.0.0.0",
+                    "/0",
+                    "100.0.0.1",
+                    "eth0"
+                ]
+            ],
+            "id": "pc1",
+            "type": "host",
+            "coords": {
+                "x": "94.0",
+                "y": "0",
+                "z": "105.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "00:1c:42:00:00:20",
+                "ipaddr": "100.0.0.20",
+                "mask": "24"
+            }},
+            "routing_table": [
+                [
+                    "100.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth0"
+                ],
+                [
+                    "0.0.0.0",
+                    "/0",
+                    "100.0.0.1",
+                    "eth0"
+                ]
+            ],
+            "id": "pc2",
+            "type": "host",
+            "coords": {
+                "x": "481.0",
+                "y": "0",
+                "z": "103.0"
+            }
+        },
+        {
+            "id": "hub1",
+            "type": "hub",
+            "coords": {
+                "x": "304.0",
+                "y": "0",
+                "z": "235.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth1": {
+                    "hwaddr": "00:1c:42:00:01:01",
+                    "ipaddr": "101.0.0.1",
+                    "mask": "24"
+                },
+                "eth0": {
+                    "hwaddr": "00:1c:42:00:00:01",
+                    "ipaddr": "100.0.0.1",
+                    "mask": "24"
+                }
+            },
+            "routing_table": [
+                [
+                    "102.0.0.0",
+                    "/24",
+                    "101.0.0.3",
+                    "eth1"
+                ],
+                [
+                    "101.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth1"
+                ],
+                [
+                    "100.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth0"
+                ]
+            ],
+            "id": "r1",
+            "type": "router",
+            "coords": {
+                "x": "285.0",
+                "y": "0",
+                "z": "334.0"
+            }
+        },
+        {
+            "id": "hub2",
+            "type": "hub",
+            "coords": {
+                "x": "284.0",
+                "y": "0",
+                "z": "474.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "00:1c:42:00:00:30",
+                "ipaddr": "101.0.0.30",
+                "mask": "24"
+            }},
+            "routing_table": [
+                [
+                    "101.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth0"
+                ],
+                [
+                    "0.0.0.0",
+                    "/0",
+                    "101.0.0.2",
+                    "eth0"
+                ]
+            ],
+            "id": "pc3",
+            "type": "host",
+            "coords": {
+                "x": "104.0",
+                "y": "0",
+                "z": "608.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth1": {
+                    "hwaddr": "00:1c:42:00:01:02",
+                    "ipaddr": "102.0.0.2",
+                    "mask": "24"
+                },
+                "eth0": {
+                    "hwaddr": "00:1c:42:00:00:02",
+                    "ipaddr": "101.0.0.2",
+                    "mask": "24"
+                }
+            },
+            "routing_table": [
+                [
+                    "102.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth1"
+                ],
+                [
+                    "101.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth0"
+                ],
+                [
+                    "0.0.0.0",
+                    "/0",
+                    "101.0.0.1",
+                    "eth0"
+                ]
+            ],
+            "id": "r2",
+            "type": "router",
+            "coords": {
+                "x": "561.0",
+                "y": "0",
+                "z": "471.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth1": {
+                    "hwaddr": "00:1c:42:00:01:03",
+                    "ipaddr": "102.0.0.3",
+                    "mask": "24"
+                },
+                "eth0": {
+                    "hwaddr": "00:1c:42:00:00:03",
+                    "ipaddr": "101.0.0.3",
+                    "mask": "24"
+                }
+            },
+            "routing_table": [
+                [
+                    "102.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth1"
+                ],
+                [
+                    "101.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth0"
+                ],
+                [
+                    "100.0.0.0",
+                    "/24",
+                    "101.0.0.1",
+                    "eth0"
+                ]
+            ],
+            "id": "r3",
+            "type": "router",
+            "coords": {
+                "x": "551.0",
+                "y": "0",
+                "z": "601.0"
+            }
+        },
+        {
+            "id": "hub3",
+            "type": "hub",
+            "coords": {
+                "x": "776.0",
+                "y": "0",
+                "z": "486.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "00:1c:42:00:00:40",
+                "ipaddr": "102.0.0.40",
+                "mask": "24"
+            }},
+            "routing_table": [
+                [
+                    "102.0.0.0",
+                    "/24",
+                    "0.0.0.0",
+                    "eth0"
+                ],
+                [
+                    "100.0.0.0",
+                    "/24",
+                    "102.0.0.3",
+                    "eth0"
+                ],
+                [
+                    "0.0.0.0",
+                    "/0",
+                    "102.0.0.2",
+                    "eth0"
+                ]
+            ],
+            "id": "pc4",
+            "type": "host",
+            "coords": {
+                "x": "915.0",
+                "y": "0",
+                "z": "360.0"
+            }
+        }
+    ],
+    "links": [
+        {
+            "dst_iface": "",
+            "col_domain": "A",
+            "source": "pc1",
+            "src_iface": "eth0",
+            "target": "hub1"
+        },
+        {
+            "dst_iface": "",
+            "col_domain": "A",
+            "source": "pc2",
+            "src_iface": "eth0",
+            "target": "hub1"
+        },
+        {
+            "dst_iface": "",
+            "col_domain": "A",
+            "source": "r1",
+            "src_iface": "eth0",
+            "target": "hub1"
+        },
+        {
+            "dst_iface": "",
+            "col_domain": "B",
+            "source": "r1",
+            "src_iface": "eth1",
+            "target": "hub2"
+        },
+        {
+            "dst_iface": "",
+            "col_domain": "B",
+            "source": "pc3",
+            "src_iface": "eth0",
+            "target": "hub2"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "B",
+            "source": "hub2",
+            "src_iface": "",
+            "target": "r2"
+        },
+        {
+            "dst_iface": "",
+            "col_domain": "C",
+            "source": "r2",
+            "src_iface": "eth1",
+            "target": "hub3"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "B",
+            "source": "hub2",
+            "src_iface": "",
+            "target": "r3"
+        },
+        {
+            "dst_iface": "",
+            "col_domain": "C",
+            "source": "r3",
+            "src_iface": "eth1",
+            "target": "hub3"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "C",
+            "source": "hub3",
+            "src_iface": "",
+            "target": "pc4"
+        }
+    ]
+}

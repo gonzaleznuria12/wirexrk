@@ -1,0 +1,9 @@
+[
+    {
+        "nodeFilter": "!nodeName.startsWith('tof') && !nodeName.startsWith('spine')",
+        "e2ePacketFilter": "vxlan",
+        "view": "APPLICATION+TRANSPORT",
+        "text": "NO-VXLAN",
+        "color": "green"
+    }
+]

@@ -1,0 +1,1167 @@
+{
+    "nodes": [
+        {
+            "interfaces": {
+                "eth3": {
+                    "hwaddr": "02:42:15:b2:12:03",
+                    "ipaddr": "fe80::b2:1203",
+                    "mask": "64"
+                },
+                "eth2": {
+                    "hwaddr": "02:42:15:b2:12:02",
+                    "ipaddr": "fe80::b2:1202",
+                    "mask": "64"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:b2:12:01",
+                    "ipaddr": "fe80::b2:1201",
+                    "mask": "64"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:b2:12:00",
+                    "ipaddr": "fe80::b2:1200",
+                    "mask": "64"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::e2:0201",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::e2:0101",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::a1:2103",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::a1:2203",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::a1:2103",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::a1:2203",
+                    "eth3"
+                ]
+            ],
+            "id": "spine_2_1_2",
+            "type": "router",
+            "coords": {
+                "x": "754.0",
+                "y": "0",
+                "z": "207.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth3": {
+                    "hwaddr": "02:42:15:b1:11:03",
+                    "ipaddr": "fe80::b1:1103",
+                    "mask": "64"
+                },
+                "eth2": {
+                    "hwaddr": "02:42:15:b1:11:02",
+                    "ipaddr": "fe80::b1:1102",
+                    "mask": "64"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:b1:11:01",
+                    "ipaddr": "fe80::b1:1101",
+                    "mask": "64"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:b1:11:00",
+                    "ipaddr": "fe80::b1:1100",
+                    "mask": "64"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::a1:2100",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::a1:2200",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::a1:2100",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::a1:2200",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::e1:0200",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::e1:0100",
+                    "eth0"
+                ]
+            ],
+            "id": "spine_1_1_1",
+            "type": "router",
+            "coords": {
+                "x": "-23.0",
+                "y": "0",
+                "z": "220.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth3": {
+                    "hwaddr": "02:42:15:b1:12:03",
+                    "ipaddr": "fe80::b1:1203",
+                    "mask": "64"
+                },
+                "eth2": {
+                    "hwaddr": "02:42:15:b1:12:02",
+                    "ipaddr": "fe80::b1:1202",
+                    "mask": "64"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:b1:12:01",
+                    "ipaddr": "fe80::b1:1201",
+                    "mask": "64"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:b1:12:00",
+                    "ipaddr": "fe80::b1:1200",
+                    "mask": "64"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::a1:2100",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::a1:2200",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::a1:2100",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::a1:2200",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::e1:0201",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::e1:0101",
+                    "eth0"
+                ]
+            ],
+            "id": "spine_1_1_2",
+            "type": "router",
+            "coords": {
+                "x": "256.0",
+                "y": "0",
+                "z": "230.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth3": {
+                    "hwaddr": "02:42:15:b2:11:03",
+                    "ipaddr": "fe80::b2:1103",
+                    "mask": "64"
+                },
+                "eth2": {
+                    "hwaddr": "02:42:15:b2:11:02",
+                    "ipaddr": "fe80::b2:1102",
+                    "mask": "64"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:b2:11:01",
+                    "ipaddr": "fe80::b2:1101",
+                    "mask": "64"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:b2:11:00",
+                    "ipaddr": "fe80::b2:1100",
+                    "mask": "64"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::e2:0200",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::e2:0100",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::a1:2102",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::a1:2202",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::a1:2102",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::a1:2202",
+                    "eth3"
+                ]
+            ],
+            "id": "spine_2_1_1",
+            "type": "router",
+            "coords": {
+                "x": "486.0",
+                "y": "0",
+                "z": "222.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "02:42:15:00:c1:12",
+                "ipaddr": "200.10.0.2",
+                "mask": "16"
+            }},
+            "routing_table": [[
+                "200.10.0.0",
+                "/16",
+                "0.0.0.0",
+                "eth0"
+            ]],
+            "id": "container_1_1_2",
+            "type": "docker",
+            "coords": {
+                "x": "97.0",
+                "y": "0",
+                "z": "699.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "02:42:15:00:c1:22",
+                "ipaddr": "200.20.0.2",
+                "mask": "16"
+            }},
+            "routing_table": [[
+                "200.20.0.0",
+                "/16",
+                "0.0.0.0",
+                "eth0"
+            ]],
+            "id": "container_1_2_2",
+            "type": "docker",
+            "coords": {
+                "x": "603.0",
+                "y": "0",
+                "z": "698.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "02:42:15:00:c2:11",
+                "ipaddr": "200.30.0.2",
+                "mask": "16"
+            }},
+            "routing_table": [[
+                "200.30.0.0",
+                "/16",
+                "0.0.0.0",
+                "eth0"
+            ]],
+            "id": "container_2_1_1",
+            "type": "docker",
+            "coords": {
+                "x": "780.0",
+                "y": "0",
+                "z": "688.0"
+            }
+        },
+        {
+            "id": "hub1",
+            "type": "hub",
+            "coords": {
+                "x": "-29.0",
+                "y": "0",
+                "z": "622.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth2": {
+                    "hwaddr": "02:42:15:e2:02:02",
+                    "ipaddr": "192.168.0.4",
+                    "mask": "24"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:e2:02:01",
+                    "ipaddr": "fe80:e2:0201",
+                    "mask": "24"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:e2:02:00",
+                    "ipaddr": "fe80:e2:0200",
+                    "mask": "24"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b2:1101",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b2:1201",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b2:1101",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b2:1201",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b2:1101",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b2:1201",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "0.0.0.0",
+                    "eth2"
+                ]
+            ],
+            "id": "leaf_2_0_2",
+            "type": "router-vxlan",
+            "coords": {
+                "x": "834.0",
+                "y": "0",
+                "z": "385.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth2": {
+                    "hwaddr": "02:42:15:e2:01:02",
+                    "ipaddr": "192.168.0.3",
+                    "mask": "24"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:e2:01:01",
+                    "ipaddr": "fe80::e2:0101",
+                    "mask": "24"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:e2:01:00",
+                    "ipaddr": "fe80::e2:0100",
+                    "mask": "24"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b2:1100",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b2:1200",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b2:1100",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b2:1200",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b2:1100",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b2:1200",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "0.0.0.0",
+                    "eth2"
+                ]
+            ],
+            "id": "leaf_2_0_1",
+            "type": "router-vxlan",
+            "coords": {
+                "x": "571.0",
+                "y": "0",
+                "z": "380.0"
+            }
+        },
+        {
+            "interfaces": {
+		"eth1": {
+                    "hwaddr": "02:42:15:00:22:01",
+                    "ipaddr": "",
+                    "mask": ""
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:00:22:00",
+                    "ipaddr": "",
+                    "mask": ""
+                }
+            },
+            "routing_table": [],
+            "id": "server_2_2",
+            "type": "switch-vlan",
+            "coords": {
+                "x": "920.0",
+                "y": "0",
+                "z": "519.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth1": {
+                    "hwaddr": "02:42:15:00:21:01",
+                    "ipaddr": "",
+                    "mask": ""
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:00:21:00",
+                    "ipaddr": "",
+                    "mask": ""
+                }
+            },
+            "routing_table": [],
+            "id": "server_2_1",
+            "type": "switch-vlan",
+            "coords": {
+                "x": "748.0",
+                "y": "0",
+                "z": "534.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth2": {
+                    "hwaddr": "02:42:15:00:12:02",
+                    "ipaddr": "",
+                    "mask": ""
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:00:12:01",
+                    "ipaddr": "",
+                    "mask": ""
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:00:12:00",
+                    "ipaddr": "",
+                    "mask": ""
+                }
+            },
+            "routing_table": [],
+            "id": "server_1_2",
+            "type": "switch-vlan",
+            "coords": {
+                "x": "433.0",
+                "y": "0",
+                "z": "535.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "02:42:15:00:c1:13",
+                "ipaddr": "200.20.0.1",
+                "mask": "16"
+            }},
+            "routing_table": [[
+                "200.20.0.0",
+                "/16",
+                "0.0.0.0",
+                "eth0"
+            ]],
+            "id": "container_1_1_3",
+            "type": "docker",
+            "coords": {
+                "x": "226.0",
+                "y": "0",
+                "z": "609.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "02:42:15:00:c1:21",
+                "ipaddr": "200.30.0.1",
+                "mask": "16"
+            }},
+            "routing_table": [[
+                "200.30.0.0",
+                "/16",
+                "0.0.0.0",
+                "eth0"
+            ]],
+            "id": "container_1_2_1",
+            "type": "docker",
+            "coords": {
+                "x": "397.0",
+                "y": "0",
+                "z": "695.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth3": {
+                    "hwaddr": "02:42:15:a1:21:03",
+                    "ipaddr": "fe80::a1:2103",
+                    "mask": "64"
+                },
+                "eth2": {
+                    "hwaddr": "02:42:15:a1:21:02",
+                    "ipaddr": "fe80::a1:2102",
+                    "mask": "64"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:a1:21:01",
+                    "ipaddr": "fe80::a1:2101",
+                    "mask": "64"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:a1:21:00",
+                    "ipaddr": "fe80::a1:2100",
+                    "mask": "64"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b2:1102",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b2:1202",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b2:1102",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b2:1202",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b1:1102",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b1:1202",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b1:1102",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b1:1202",
+                    "eth1"
+                ]
+            ],
+            "id": "tof_1_2_1",
+            "type": "router",
+            "coords": {
+                "x": "151.0",
+                "y": "0",
+                "z": "53.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth3": {
+                    "hwaddr": "02:42:15:a1:22:03",
+                    "ipaddr": "fe80::a1:2203",
+                    "mask": "64"
+                },
+                "eth2": {
+                    "hwaddr": "02:42:15:a1:22:02",
+                    "ipaddr": "fe80::a1:2202",
+                    "mask": "64"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:a1:22:01",
+                    "ipaddr": "fe80::a1:2201",
+                    "mask": "64"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:a1:22:00",
+                    "ipaddr": "fe80::a1:2200",
+                    "mask": "64"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b2:1103",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b2:1203",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b2:1103",
+                    "eth2"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b2:1203",
+                    "eth3"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b1:1103",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b1:1203",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b1:1103",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b1:1203",
+                    "eth1"
+                ]
+            ],
+            "id": "tof_1_2_2",
+            "type": "router",
+            "coords": {
+                "x": "629.0",
+                "y": "0",
+                "z": "45.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth2": {
+                    "hwaddr": "02:42:15:00:11:02",
+                    "ipaddr": "",
+                    "mask": ""
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:00:11:01",
+                    "ipaddr": "",
+                    "mask": ""
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:00:11:00",
+                    "ipaddr": "",
+                    "mask": ""
+                }
+            },
+            "routing_table": [],
+            "id": "server_1_1",
+            "type": "switch-vlan",
+            "coords": {
+                "x": "31.0",
+                "y": "0",
+                "z": "560.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth2": {
+                    "hwaddr": "02:42:15:e1:01:02",
+                    "ipaddr": "192.168.0.1",
+                    "mask": "24"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:e1:01:01",
+                    "ipaddr": "fe80::e1:0101",
+                    "mask": "24"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:e1:01:00",
+                    "ipaddr": "fe80::e1:0100",
+                    "mask": "24"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b1:1100",
+                    "eth0"
+                ],
+		[
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b1:1200",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b1:1100",
+                    "eth0"
+                ],
+		[
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b1:1200",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b1:1100",
+                    "eth0"
+                ],
+		[
+                    "192.168.0.2",
+                    "/32",
+                    "fe80::b1:1200",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "0.0.0.0",
+                    "eth2"
+                ]
+            ],
+            "id": "leaf_1_0_1",
+            "type": "router-vxlan",
+            "coords": {
+                "x": "62.0",
+                "y": "0",
+                "z": "398.0"
+            }
+        },
+        {
+            "interfaces": {
+                "eth2": {
+                    "hwaddr": "02:42:15:e1:02:02",
+                    "ipaddr": "192.168.0.2",
+                    "mask": "24"
+                },
+                "eth1": {
+                    "hwaddr": "02:42:15:e1:02:01",
+                    "ipaddr": "fe80::e1:0201",
+                    "mask": "24"
+                },
+                "eth0": {
+                    "hwaddr": "02:42:15:e1:02:00",
+                    "ipaddr": "fe80::e1:0200",
+                    "mask": "24"
+                }
+            },
+            "routing_table": [
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b1:1101",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.4",
+                    "/32",
+                    "fe80::b1:1201",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b1:1101",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.3",
+                    "/32",
+                    "fe80::b1:1201",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b1:1101",
+                    "eth0"
+                ],
+                [
+                    "192.168.0.1",
+                    "/32",
+                    "fe80::b1:1201",
+                    "eth1"
+                ],
+                [
+                    "192.168.0.2",
+                    "/32",
+                    "0.0.0.0",
+                    "eth2"
+                ]
+            ],
+            "id": "leaf_1_0_2",
+            "type": "router-vxlan",
+            "coords": {
+                "x": "208.0",
+                "y": "0",
+                "z": "394.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "02:42:15:00:c2:21",
+                "ipaddr": "200.10.0.3",
+                "mask": "16"
+            }},
+            "routing_table": [[
+                "200.10.0.0",
+                "/16",
+                "0.0.0.0",
+                "eth0"
+            ]],
+            "id": "container_2_2_1",
+            "type": "docker",
+            "coords": {
+                "x": "916.0",
+                "y": "0",
+                "z": "668.0"
+            }
+        },
+        {
+            "interfaces": {"eth0": {
+                "hwaddr": "02:42:15:00:c1:11",
+                "ipaddr": "200.10.0.1",
+                "mask": "16"
+            }},
+            "routing_table": [[
+                "200.10.0.0",
+                "/16",
+                "0.0.0.0",
+                "eth0"
+            ]],
+            "id": "container_1_1_1",
+            "type": "docker",
+            "coords": {
+                "x": "-70.0",
+                "y": "0",
+                "z": "693.0"
+            }
+        }
+    ],
+    "links": [
+        {
+            "dst_iface": "eth0",
+            "col_domain": "B",
+            "source": "leaf_1_0_1",
+            "src_iface": "eth0",
+            "target": "spine_1_1_1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "C",
+            "source": "leaf_1_0_1",
+            "src_iface": "eth1",
+            "target": "spine_1_1_2"
+        },
+        {
+            "dst_iface": "eth1",
+            "col_domain": "D",
+            "source": "leaf_1_0_2",
+            "src_iface": "eth0",
+            "target": "spine_1_1_1"
+        },
+        {
+            "dst_iface": "eth1",
+            "col_domain": "E",
+            "source": "leaf_1_0_2",
+            "src_iface": "eth1",
+            "target": "spine_1_1_2"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "F",
+            "source": "leaf_2_0_1",
+            "src_iface": "eth0",
+            "target": "spine_2_1_1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "G",
+            "source": "leaf_2_0_1",
+            "src_iface": "eth1",
+            "target": "spine_2_1_2"
+        },
+        {
+            "dst_iface": "eth1",
+            "col_domain": "H",
+            "source": "leaf_2_0_2",
+            "src_iface": "eth0",
+            "target": "spine_2_1_1"
+        },
+        {
+            "dst_iface": "eth1",
+            "col_domain": "I",
+            "source": "leaf_2_0_2",
+            "src_iface": "eth1",
+            "target": "spine_2_1_2"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "J",
+            "source": "spine_1_1_1",
+            "src_iface": "eth2",
+            "target": "tof_1_2_1"
+        },
+        {
+            "dst_iface": "eth1",
+            "col_domain": "K",
+            "source": "spine_1_1_2",
+            "src_iface": "eth2",
+            "target": "tof_1_2_1"
+        },
+        {
+            "dst_iface": "eth2",
+            "col_domain": "L",
+            "source": "spine_2_1_1",
+            "src_iface": "eth2",
+            "target": "tof_1_2_1"
+        },
+        {
+            "dst_iface": "eth3",
+            "col_domain": "M",
+            "source": "spine_2_1_2",
+            "src_iface": "eth2",
+            "target": "tof_1_2_1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "N",
+            "source": "spine_1_1_1",
+            "src_iface": "eth3",
+            "target": "tof_1_2_2"
+        },
+        {
+            "dst_iface": "eth1",
+            "col_domain": "O",
+            "source": "spine_1_1_2",
+            "src_iface": "eth3",
+            "target": "tof_1_2_2"
+        },
+        {
+            "dst_iface": "eth2",
+            "col_domain": "P",
+            "source": "spine_2_1_1",
+            "src_iface": "eth3",
+            "target": "tof_1_2_2"
+        },
+        {
+            "dst_iface": "eth3",
+            "col_domain": "Q",
+            "source": "spine_2_1_2",
+            "src_iface": "eth3",
+            "target": "tof_1_2_2"
+        },
+        {
+            "dst_iface": "eth2",
+            "col_domain": "R",
+            "source": "server_1_1",
+            "src_iface": "eth0",
+            "target": "leaf_1_0_1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "S",
+            "source": "leaf_1_0_2",
+            "src_iface": "eth2",
+            "target": "server_1_2"
+        },
+        {
+            "dst_iface": "",
+            "col_domain": "A",
+            "source": "server_1_1",
+            "src_iface": "eth1",
+            "target": "hub1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "A",
+            "source": "hub1",
+            "src_iface": "",
+            "target": "container_1_1_1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "A",
+            "source": "hub1",
+            "src_iface": "",
+            "target": "container_1_1_2"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "T",
+            "source": "server_1_1",
+            "src_iface": "eth2",
+            "target": "container_1_1_3"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "U",
+            "source": "server_1_2",
+            "src_iface": "eth1",
+            "target": "container_1_2_1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "V",
+            "source": "server_1_2",
+            "src_iface": "eth2",
+            "target": "container_1_2_2"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "W",
+            "source": "leaf_2_0_1",
+            "src_iface": "eth2",
+            "target": "server_2_1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "X",
+            "source": "leaf_2_0_2",
+            "src_iface": "eth2",
+            "target": "server_2_2"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "Y",
+            "source": "server_2_1",
+            "src_iface": "eth1",
+            "target": "container_2_1_1"
+        },
+        {
+            "dst_iface": "eth0",
+            "col_domain": "Z",
+            "source": "server_2_2",
+            "src_iface": "eth1",
+            "target": "container_2_2_1"
+        }
+    ]
+}
